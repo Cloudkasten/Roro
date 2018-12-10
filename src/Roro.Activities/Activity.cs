@@ -8,7 +8,7 @@ namespace Roro.Activities
 {
     public abstract class Activity
     {
-        protected Activity()
+        public Activity()
         {
             this.Inputs = this.Inputs;
             this.Outputs = this.Outputs;
